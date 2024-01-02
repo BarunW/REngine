@@ -14,7 +14,7 @@ int main()
 	}
 
 
-	GLFWwindow* window = glfwCreateWindow (720, 480, "OpenGL tutorial", nullptr, nullptr);
+	GLFWwindow* window = glfwCreateWindow (720, 480, "REngine", nullptr, nullptr);
 
 	if (window == nullptr) {
 		std::cerr << "Window init failed..." << std::endl;
